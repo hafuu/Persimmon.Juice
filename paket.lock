@@ -1,0 +1,14 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+  specs:
+    Persimmon.Console (1.0.1)
+    Rx-Core (2.2.5)
+      Rx-Interfaces (>= 2.2.5)
+    Rx-Interfaces (2.2.5)
+    Rx-Linq (2.2.5)
+      Rx-Core (>= 2.2.5)
+      Rx-Interfaces (>= 2.2.5)
+GITHUB
+  remote: persimmon-projects/Persimmon
+  specs:
+    Persimmon.Console/Args.fs (8486e212a9403dafff5c36dcf03cc9fe33a2dd61)

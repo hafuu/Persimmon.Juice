@@ -1,0 +1,6 @@
+source https://nuget.org/api/v2
+
+nuget Persimmon.Console
+nuget Rx-Linq
+
+github persimmon-projects/Persimmon Persimmon.Console/Args.fs
