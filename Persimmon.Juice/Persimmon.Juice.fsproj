@@ -81,7 +81,7 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>xcopy $(ProjectDir)..\packages\Persimmon.Console\tools $(OutDir)Persimmon.Console\ /y</PostBuildEvent>
+    <PostBuildEvent>xcopy $(ProjectDir)..\packages\Persimmon.Console\tools $(TargetDir)Persimmon.Console\ /y</PostBuildEvent>
   </PropertyGroup>
   <Choose>
     <When Condition="$(TargetFrameworkIdentifier) == '.NETCore'">
