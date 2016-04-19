@@ -17,6 +17,7 @@ let runTests (argv: string[]) =
   printfn "run tests at %s." (DateTime.Now.ToString())
   proc.Start() |> ignore
   Console.WriteLine(proc.StandardOutput.ReadToEnd())
+  Console.WriteLine(proc.StandardError.ReadToEnd())
   proc.WaitForExit()
 
   printfn "press 'q' to quit or Enter to run tests."
