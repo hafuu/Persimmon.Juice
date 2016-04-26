@@ -20,6 +20,15 @@ let runTests (argv: string[]) =
   Console.WriteLine(proc.StandardError.ReadToEnd())
   proc.WaitForExit()
 
+  if proc.ExitCode = 0 then
+    Console.ForegroundColor <- ConsoleColor.Green
+    Console.WriteLine("success")
+  else
+    Console.ForegroundColor <- ConsoleColor.Red
+    Console.WriteLine("failure")
+  Console.WriteLine()
+  Console.ResetColor()
+
   printfn "press 'q' to quit or Enter to run tests."
 
 module Observable =
