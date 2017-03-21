@@ -1,7 +1,6 @@
 NUGET
   remote: https://www.nuget.org/api/v2
-  specs:
-    Persimmon.Console (1.1)
+    Persimmon.Console (1.2)
     Rx-Core (2.2.5)
       Rx-Interfaces (>= 2.2.5)
     Rx-Interfaces (2.2.5)
@@ -10,5 +9,4 @@ NUGET
       Rx-Interfaces (>= 2.2.5)
 GITHUB
   remote: persimmon-projects/Persimmon
-  specs:
-    src/Persimmon.Console/Args.fs (cdba2509e5d48e4cdd47f292f3578b00371c85fc)
+    src/Persimmon.Console/Args.fs (c8fdf2416118f7b57d3daa2a06cca71fac3912e4)
