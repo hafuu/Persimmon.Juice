@@ -1,12 +1,31 @@
 NUGET
   remote: https://www.nuget.org/api/v2
+    FSharp.Control.Reactive (3.5)
+      System.Reactive (>= 3.0)
+    Microsoft.NETCore.Platforms (1.1) - framework: netstandard10, netstandard12, netstandard13, >= netstandard15
+    Microsoft.NETCore.Targets (1.1) - framework: netstandard10, netstandard12, netstandard13, >= netstandard15
     Persimmon.Console (2.0.1)
-    Rx-Core (2.2.5)
-      Rx-Interfaces (>= 2.2.5)
-    Rx-Interfaces (2.2.5)
-    Rx-Linq (2.2.5)
-      Rx-Core (>= 2.2.5)
-      Rx-Interfaces (>= 2.2.5)
+    System.Reactive (3.1.1)
+      System.Reactive.PlatformServices (>= 3.1.1)
+      System.Reactive.Windows.Threading (>= 3.1.1) - framework: >= net45, winv4.5.1, wpav8.1
+      System.Reactive.WindowsRuntime (>= 3.1.1) - framework: winv4.5.1, wpav8.1
+    System.Reactive.Core (3.1.1) - framework: >= net45, >= netstandard10, winv4.5.1, wpav8.1
+      System.Reactive.Interfaces (>= 3.1.1) - framework: >= net45, >= netstandard10, netcore10
+    System.Reactive.Interfaces (3.1.1) - framework: >= net45, >= netstandard10
+    System.Reactive.Linq (3.1.1)
+      System.Reactive.Core (>= 3.1.1) - framework: >= net45, >= netstandard10
+      System.Runtime.InteropServices.WindowsRuntime (>= 4.0.1) - framework: >= netstandard10
+    System.Reactive.PlatformServices (3.1.1)
+      System.Reactive.Linq (>= 3.1.1)
+    System.Reactive.Windows.Threading (3.1.1) - framework: >= net45, winv4.5.1, wpav8.1
+      System.Reactive.Core (>= 3.1.1)
+    System.Reactive.WindowsRuntime (3.1.1) - framework: winv4.5.1, wpav8.1
+      System.Reactive.Linq (>= 3.1.1)
+    System.Runtime (4.3) - framework: >= netstandard10
+      Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, netstandard12, netstandard13, >= netstandard15
+      Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, netstandard12, netstandard13, >= netstandard15
+    System.Runtime.InteropServices.WindowsRuntime (4.3) - framework: >= netstandard10
+      System.Runtime (>= 4.3) - framework: dnxcore50, >= netstandard10
 GITHUB
   remote: persimmon-projects/Persimmon
     src/Persimmon.Console/Args.fs (7e263b21b9a2434ccca7f47c0244654b8f9e68c2)

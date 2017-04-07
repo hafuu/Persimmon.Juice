@@ -1,6 +1,6 @@
 source https://nuget.org/api/v2
 
 nuget Persimmon.Console
-nuget Rx-Linq
+nuget FSharp.Control.Reactive
 
 github persimmon-projects/Persimmon src/Persimmon.Console/Args.fs
