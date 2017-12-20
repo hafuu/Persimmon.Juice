@@ -1,5 +1,8 @@
 source https://nuget.org/api/v2
 
+framework: auto-detect
+
+nuget Persimmon.Runner
 nuget Persimmon.Console
 nuget FSharp.Control.Reactive
 
