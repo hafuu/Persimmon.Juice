@@ -2,6 +2,7 @@
 open System
 open System.Reactive.Linq
 open System.Diagnostics
+open FSharp.Control.Reactive
 
 let runTests (argv: string[]) =
   use proc = new Process()
@@ -31,9 +32,6 @@ let runTests (argv: string[]) =
   Console.ResetColor()
 
   printfn "press 'q' to quit or Enter to run tests."
-
-module Observable =
-  let throttle (dueTime: TimeSpan) (source: IObservable<_>) = source.Throttle(dueTime)
 
 [<EntryPoint>]
 let main argv =
