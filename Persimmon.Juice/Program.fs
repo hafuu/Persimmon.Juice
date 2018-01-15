@@ -15,6 +15,7 @@ let runTests (argv: string[]) =
 
   Console.Clear()
   printfn "run tests at %s." (DateTime.Now.ToString())
+  printfn "%s %s" startInfo.FileName startInfo.Arguments
   proc.Start() |> ignore
   Console.WriteLine(proc.StandardOutput.ReadToEnd())
   Console.WriteLine(proc.StandardError.ReadToEnd())
