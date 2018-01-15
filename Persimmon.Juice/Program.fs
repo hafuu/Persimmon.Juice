@@ -44,7 +44,7 @@ let main argv =
   use watcher = new FileSystemWatcher(watchFile.DirectoryName, watchFile.Name)
 
   Observable.merge watcher.Created watcher.Changed
-  |> Observable.throttle (TimeSpan.FromSeconds(1.0))
+  |> Observable.throttle (TimeSpan.FromSeconds(2.0))
   |> Observable.add (fun _ -> runTests argv)
 
   watcher.EnableRaisingEvents <- true
