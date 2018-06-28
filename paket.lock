@@ -1,26 +1,16 @@
-RESTRICTION: == net45
+RESTRICTION: == net46
 NUGET
   remote: https://www.nuget.org/api/v2
-    FSharp.Control.Reactive (3.5)
-      System.Reactive (>= 3.0)
-    FSharp.Core (4.2.3)
-    Persimmon (3.1.1)
+    FSharp.Control.Reactive (4.1)
+      FSharp.Core (>= 4.2.3)
+      System.Reactive (>= 4.0)
+    FSharp.Core (4.3.4)
+    Persimmon (4.0.1)
       FSharp.Core (>= 3.1.2.5)
-    Persimmon.Console (3.1.1)
-    Persimmon.Runner (3.1.1)
-      Persimmon (>= 3.1.1)
-    System.Reactive (3.1.1)
-      System.Reactive.PlatformServices (>= 3.1.1)
-      System.Reactive.Windows.Threading (>= 3.1.1)
-    System.Reactive.Core (3.1.1)
-      System.Reactive.Interfaces (>= 3.1.1)
-    System.Reactive.Interfaces (3.1.1)
-    System.Reactive.Linq (3.1.1)
-      System.Reactive.Core (>= 3.1.1)
-    System.Reactive.PlatformServices (3.1.1)
-      System.Reactive.Linq (>= 3.1.1)
-    System.Reactive.Windows.Threading (3.1.1)
-      System.Reactive.Core (>= 3.1.1)
+    Persimmon.Console (4.0.1)
+    Persimmon.Runner (4.0.1)
+      FSharp.Core (>= 3.1.2.5)
+    System.Reactive (4.0)
 GITHUB
   remote: persimmon-projects/Persimmon
-    src/Persimmon.Console/Args.fs (1f8c6ef97382db955a8b195e704fe1a8fc3301d6)
+    src/Persimmon.Console/Args.fs (40dddf923b0964db6d72f89815a9a65f334ef374)

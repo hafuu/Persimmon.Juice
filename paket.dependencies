@@ -2,6 +2,8 @@ source https://nuget.org/api/v2
 
 framework: auto-detect
 
+nuget FSharp.Core 4.3.4
+nuget Persimmon
 nuget Persimmon.Runner
 nuget Persimmon.Console
 nuget FSharp.Control.Reactive
